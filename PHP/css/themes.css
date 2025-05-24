@@ -1,0 +1,1022 @@
+/* Theme Variables */
+:root {
+    /* Default Light Theme */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f5f5f5;
+    --text-primary: #2c3e50;
+    --text-secondary: #5F6368;
+    --accent-primary: #1a73e8;
+    --accent-secondary: #4285F4;
+    --error-color: #e74c3c;
+    --success-color: #27ae60;
+    --border-color: #DADCE0;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --card-bg: #ffffff;
+    --btn-primary: #2c3e50;
+    --btn-hover: #1a252f;
+}
+
+/* Dark Theme - Enhanced for better visibility */
+[data-theme="dark"] {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #242424;
+    --bg-tertiary: #2a2a2a;
+    --card-bg: #2d2d2d;
+    --text-primary: #ffffff;
+    --text-secondary: #e0e0e0;
+    --text-muted: #a0a0a0;
+    --text-title: #ffffff;
+    --text-subtitle: #e0e0e0;
+    --accent-primary: #90caf9;
+    --accent-secondary: #82b1ff;
+    --error-color: #ff8a80;
+    --success-color: #69f0ae;
+    --warning-color: #ffd740;
+    --warning-bg: rgba(255, 215, 64, 0.15);
+    --border-color: rgba(255,255,255,0.2);
+    --card-shadow: 0 4px 6px rgba(0,0,0,0.3), 0 5px 15px rgba(0,0,0,0.4);
+    --sidebar-bg: #242424;
+    --sidebar-hover: rgba(144, 202, 249, 0.15);
+    --nav-text: #ffffff;
+    --nav-text-secondary: #e0e0e0;
+    --nav-active-bg: rgba(144, 202, 249, 0.2);
+    --nav-active-text: #90caf9;
+    --button-bg: #2d2d2d;
+    --button-hover: #3d3d3d;
+    --notification-warning-bg: rgba(255, 215, 64, 0.15);
+    --notification-error-bg: rgba(255, 138, 128, 0.15);
+    --notification-success-bg: rgba(105, 240, 174, 0.15);
+}
+
+/* Colorblind Mode - Light */
+[data-colorblind="true"] {
+    --accent-primary: #0077BB;    /* Blue - easily distinguishable */
+    --accent-secondary: #EE7733;  /* Orange - distinct from blue */
+    --error-color: #EE3377;      /* Magenta - distinct from success */
+    --success-color: #009988;    /* Teal - distinct from error */
+    --btn-primary: #0077BB;
+    --btn-hover: #005577;
+}
+
+/* Colorblind Mode - Dark */
+[data-theme="dark"][data-colorblind="true"] {
+    --accent-primary: #33BBEE;    /* Light Blue - more visible */
+    --accent-secondary: #EE7733;  /* Orange - high contrast */
+    --error-color: #EE3377;      /* Magenta - distinct */
+    --success-color: #00BB99;    /* Bright Teal - visible */
+    --btn-primary: #33BBEE;
+    --btn-hover: #00AADD;
+}
+
+/* Smooth transitions */
+* {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Common Components */
+.btn {
+    background-color: var(--btn-primary);
+    color: var(--bg-primary);
+}
+
+.btn:hover {
+    background-color: var(--btn-hover);
+}
+
+.error {
+    color: var(--error-color);
+    background-color: var(--bg-secondary);
+}
+
+.success {
+    color: var(--success-color);
+    background-color: var(--bg-secondary);
+}
+
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 10px var(--shadow-color);
+}
+
+input, select, textarea {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 2px var(--accent-secondary);
+}
+
+/* Animation Settings */
+*, *::before, *::after {
+    transition: background-color 0.3s ease,
+                color 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+/* Exclude certain elements from transition */
+.material-icons,
+.material-icons-outlined,
+img,
+video,
+canvas {
+    transition: none !important;
+}
+
+/* Theme Toggle Animation */
+.theme-toggle input[type="checkbox"] {
+    transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.theme-toggle input[type="checkbox"]::before {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Card Animation */
+.mdc-card {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mdc-card:hover {
+    transform: translateY(-2px);
+}
+
+/* Action Button Animation */
+.action-button {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.action-button:hover {
+    transform: translateY(-2px);
+}
+
+/* Dark Mode Animation */
+[data-theme="dark"] {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark Mode Toggle Animation */
+.theme-toggle input[type="checkbox"]:checked::before {
+    transform: translateX(20px);
+}
+
+/* Sidebar Animation */
+.sidebar {
+    transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Nav Item Animation */
+.nav-item {
+    transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Status Badge Animation */
+.status-badge {
+    transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Menu Surface Animation */
+.mdc-menu-surface {
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+                transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark Mode Entry Animation */
+@keyframes darkModeEntry {
+    from {
+        opacity: 0.8;
+        transform: scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+[data-theme="dark"] .mdc-card,
+[data-theme="dark"] .sidebar,
+[data-theme="dark"] .app-bar {
+    animation: darkModeEntry 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Dark Mode Text Fade */
+@keyframes textFade {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6,
+[data-theme="dark"] p,
+[data-theme="dark"] span,
+[data-theme="dark"] .card-header h3,
+[data-theme="dark"] .course-name,
+[data-theme="dark"] .schedule-details,
+[data-theme="dark"] .activity-text {
+    animation: textFade 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Icon Color Transition */
+.material-icons,
+.material-icons-outlined {
+    transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+    --bg-primary: #202124;
+    --bg-secondary: #2d2e31;
+    --bg-tertiary: #35363a;
+    --text-primary: #e8eaed;
+    --text-secondary: #9aa0a6;
+    --text-title: #ffffff;
+    --text-subtitle: #9aa0a6;
+    --border-color: rgba(255,255,255,0.1);
+    --primary-color: #8ab4f8;
+    --primary-color-rgb: 138, 180, 248;
+    --secondary-color: #81c995;
+    --secondary-color-rgb: 129, 201, 149;
+    --danger-color: #f28b82;
+    --danger-color-rgb: 242, 139, 130;
+    --warning-color: #fdd663;
+    --warning-color-rgb: 253, 214, 99;
+    --shadow-color: rgba(0,0,0,0.5);
+    --card-shadow: 0 1px 2px 0 rgba(0,0,0,0.5), 0 2px 6px 2px rgba(0,0,0,0.3);
+    --hover-bg: rgba(255,255,255,0.08);
+    --divider-color: rgba(255,255,255,0.1);
+    --success-bg: rgba(129, 201, 149, 0.2);
+    --warning-bg: rgba(253, 214, 99, 0.2);
+    --danger-bg: rgba(242, 139, 130, 0.2);
+    --link-color: #8ab4f8;
+    --card-bg: #35363a;
+}
+
+/* Colorblind Mode - Light */
+[data-colorblind="true"]:not([data-theme="dark"]) {
+    --primary-color: #0077BB;    /* Blue - distinguishable */
+    --primary-color-rgb: 0, 119, 187;
+    --secondary-color: #EE7733;  /* Orange - distinguishable */
+    --secondary-color-rgb: 238, 119, 51;
+    --danger-color: #EE3377;     /* Magenta - distinguishable */
+    --danger-color-rgb: 238, 51, 119;
+    --warning-color: #009988;    /* Teal - distinguishable */
+    --warning-color-rgb: 0, 153, 136;
+    --success-bg: rgba(0, 119, 187, 0.2);
+    --warning-bg: rgba(0, 153, 136, 0.2);
+    --danger-bg: rgba(238, 51, 119, 0.2);
+}
+
+/* Colorblind Mode - Dark */
+[data-theme="dark"][data-colorblind="true"] {
+    --primary-color: #00BBFF;    /* Bright Blue - distinguishable in dark */
+    --primary-color-rgb: 0, 187, 255;
+    --secondary-color: #FF9933;  /* Bright Orange - distinguishable in dark */
+    --secondary-color-rgb: 255, 153, 51;
+    --danger-color: #FF3399;     /* Bright Magenta - distinguishable in dark */
+    --danger-color-rgb: 255, 51, 153;
+    --warning-color: #00DDCC;    /* Bright Teal - distinguishable in dark */
+    --warning-color-rgb: 0, 221, 204;
+    --success-bg: rgba(0, 187, 255, 0.2);
+    --warning-bg: rgba(0, 221, 204, 0.2);
+    --danger-bg: rgba(255, 51, 153, 0.2);
+}
+
+/* Theme Toggle Styles */
+.theme-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 20px;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+}
+
+.theme-toggle label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--text-primary);
+    cursor: pointer;
+}
+
+.theme-toggle input[type="checkbox"] {
+    appearance: none;
+    width: 40px;
+    height: 20px;
+    background: var(--text-secondary);
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.theme-toggle input[type="checkbox"]:checked {
+    background: var(--primary-color);
+}
+
+.theme-toggle input[type="checkbox"]::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    background: var(--bg-secondary);
+    transition: transform 0.3s;
+}
+
+.theme-toggle input[type="checkbox"]:checked::before {
+    transform: translateX(20px);
+}
+
+/* Card Styles */
+.mdc-card {
+    background-color: var(--card-bg);
+    box-shadow: var(--card-shadow);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+}
+
+.card-header {
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--bg-secondary);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.card-header h3 {
+    color: var(--text-primary);
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.card-header i {
+    color: var(--primary-color);
+    font-size: 24px;
+}
+
+/* Dark mode specific card header styles */
+[data-theme="dark"] .card-header {
+    background-color: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .card-header h3 {
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+[data-theme="dark"] .card-header i {
+    color: var(--primary-color);
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.2));
+}
+
+/* Card title with icons */
+.card-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .card-title {
+    color: #ffffff;
+}
+
+/* Today's Schedule title specific */
+.schedule-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+[data-theme="dark"] .schedule-title {
+    color: #ffffff;
+}
+
+/* Card Content */
+.card-content {
+    background-color: var(--card-bg);
+    padding: 16px;
+}
+
+/* Section Headers inside cards */
+.section-header {
+    color: var(--text-primary);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 16px 0 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .section-header {
+    color: #ffffff;
+}
+
+/* Quick Actions Card */
+.quick-actions .card-header h3,
+.notifications .card-header h3,
+.help-resources .card-header h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .quick-actions .card-header h3,
+[data-theme="dark"] .notifications .card-header h3,
+[data-theme="dark"] .help-resources .card-header h3 {
+    color: #ffffff;
+}
+
+/* Schedule Card Specific */
+.schedule-card .card-header {
+    background-color: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .schedule-card .card-header {
+    background-color: var(--bg-secondary);
+}
+
+/* Notification Card Specific */
+.notification-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px;
+    background-color: var(--bg-tertiary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .notification-header {
+    background-color: var(--bg-secondary);
+}
+
+.notification-header h3 {
+    margin: 0;
+    color: var(--text-primary);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+[data-theme="dark"] .notification-header h3 {
+    color: #ffffff;
+}
+
+/* Schedule Items */
+.schedule-item {
+    border-bottom: 1px solid var(--border-color);
+    padding: 16px;
+}
+
+.schedule-time {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.course-name {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.course-code {
+    color: var(--text-secondary);
+}
+
+/* Action Buttons */
+.action-button {
+    background-color: var(--bg-tertiary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: var(--hover-bg);
+    transform: translateY(-2px);
+}
+
+.action-button i {
+    color: var(--primary-color);
+}
+
+/* Navigation */
+.nav-item {
+    color: var(--text-secondary);
+}
+
+.nav-item:hover {
+    background-color: var(--hover-bg);
+}
+
+.nav-item.active {
+    color: var(--primary-color);
+    background-color: rgba(var(--primary-color-rgb), 0.1);
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: var(--bg-secondary);
+    border-right: 1px solid var(--border-color);
+}
+
+/* App Bar */
+.app-bar {
+    background-color: var(--bg-secondary);
+}
+
+/* Tables */
+table {
+    color: var(--text-primary);
+    background-color: var(--card-bg);
+}
+
+th {
+    background-color: var(--bg-tertiary);
+    color: var(--text-primary);
+    border-bottom: 2px solid var(--border-color);
+}
+
+td {
+    border-color: var(--border-color);
+}
+
+tr:hover {
+    background-color: var(--hover-bg);
+}
+
+/* Status Badges */
+.status-badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.status-present {
+    background-color: var(--success-bg);
+    color: var(--secondary-color);
+}
+
+.status-absent {
+    background-color: var(--danger-bg);
+    color: var(--danger-color);
+}
+
+.status-late {
+    background-color: var(--warning-bg);
+    color: var(--warning-color);
+}
+
+/* Form Elements */
+input, select, textarea {
+    background-color: var(--bg-tertiary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+/* Links */
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Notification Items */
+.notification-item {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+}
+
+/* Additional Dark Mode Specific Styles */
+[data-theme="dark"] .mdc-menu-surface {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .mdc-list-item {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .mdc-list-item:hover {
+    background-color: var(--hover-bg);
+}
+
+[data-theme="dark"] .action-button {
+    background-color: var(--bg-tertiary);
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .action-button:hover {
+    background-color: var(--hover-bg);
+}
+
+[data-theme="dark"] .schedule-time {
+    color: var(--primary-color);
+}
+
+[data-theme="dark"] .course-code,
+[data-theme="dark"] .activity-time,
+[data-theme="dark"] .far-right-realtime-date {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] hr.mdc-list-divider {
+    border-color: var(--divider-color);
+}
+
+/* Dark Mode Text Overrides */
+[data-theme="dark"] {
+    /* General text */
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+    color: var(--text-title);
+}
+
+[data-theme="dark"] .course-name,
+[data-theme="dark"] .schedule-details,
+[data-theme="dark"] .activity-text,
+[data-theme="dark"] .notification-text,
+[data-theme="dark"] .action-button span,
+[data-theme="dark"] .greeting,
+[data-theme="dark"] .app-name,
+[data-theme="dark"] .user-name,
+[data-theme="dark"] .mdc-list-item__primary-text {
+    color: var(--text-title);
+}
+
+[data-theme="dark"] .course-code,
+[data-theme="dark"] .activity-time,
+[data-theme="dark"] .notification-time,
+[data-theme="dark"] .far-right-realtime-date,
+[data-theme="dark"] .mdc-list-item__secondary-text {
+    color: var(--text-secondary);
+}
+
+/* Menu and Dropdown Items */
+[data-theme="dark"] .mdc-menu-surface {
+    background-color: var(--bg-secondary);
+}
+
+[data-theme="dark"] .mdc-list-item {
+    color: var(--text-title);
+}
+
+[data-theme="dark"] .mdc-list-item:hover {
+    background-color: var(--hover-bg);
+}
+
+/* Form Elements */
+[data-theme="dark"] input,
+[data-theme="dark"] select,
+[data-theme="dark"] textarea {
+    color: var(--text-title);
+    background-color: var(--bg-tertiary);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] input::placeholder,
+[data-theme="dark"] select::placeholder,
+[data-theme="dark"] textarea::placeholder {
+    color: var(--text-secondary);
+}
+
+/* Table Elements */
+[data-theme="dark"] table {
+    color: var(--text-title);
+}
+
+[data-theme="dark"] th {
+    color: var(--text-title);
+    background-color: var(--bg-tertiary);
+}
+
+[data-theme="dark"] td {
+    color: var(--text-primary);
+}
+
+/* Status and Badges */
+[data-theme="dark"] .status-badge {
+    border: 1px solid var(--border-color);
+}
+
+/* Card Content */
+[data-theme="dark"] .card-content p,
+[data-theme="dark"] .card-content div {
+    color: var(--text-primary);
+}
+
+/* Notifications */
+[data-theme="dark"] .notification-item {
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .notification-message {
+    color: var(--text-title);
+}
+
+/* Quick Actions */
+[data-theme="dark"] .action-button {
+    background-color: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .action-button:hover {
+    background-color: var(--hover-bg);
+}
+
+/* No Data Messages */
+[data-theme="dark"] .no-data-message,
+[data-theme="dark"] .no-schedule {
+    color: var(--text-secondary);
+}
+
+/* Profile Section */
+[data-theme="dark"] .user-profile .user-name {
+    color: var(--text-title);
+}
+
+[data-theme="dark"] .user-profile .user-email {
+    color: var(--text-secondary);
+}
+
+/* Enhanced Dark Mode Specific Styles */
+[data-theme="dark"] .card {
+    background-color: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--card-shadow);
+}
+
+[data-theme="dark"] input,
+[data-theme="dark"] select,
+[data-theme="dark"] textarea {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] input:focus,
+[data-theme="dark"] select:focus,
+[data-theme="dark"] textarea:focus {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 2px rgba(144, 202, 249, 0.3);
+}
+
+[data-theme="dark"] .btn {
+    background-color: var(--btn-primary);
+    color: var(--bg-primary);
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+[data-theme="dark"] .btn:hover {
+    background-color: var(--btn-hover);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+[data-theme="dark"] .nav-item {
+    color: var(--nav-text);
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin: 4px 8px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+[data-theme="dark"] .nav-item:hover {
+    background-color: var(--sidebar-hover);
+    color: var(--accent-primary);
+}
+
+[data-theme="dark"] .nav-item.active {
+    background-color: var(--nav-active-bg);
+    color: var(--nav-active-text);
+}
+
+[data-theme="dark"] .nav-item i {
+    color: var(--nav-text-secondary);
+    margin-right: 8px;
+}
+
+[data-theme="dark"] .nav-item:hover i,
+[data-theme="dark"] .nav-item.active i {
+    color: var(--nav-active-text);
+}
+
+/* Sidebar Styles - Enhanced for Dark Mode */
+[data-theme="dark"] .sidebar {
+    background-color: var(--sidebar-bg);
+    border-right: 1px solid var(--border-color);
+    box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+}
+
+[data-theme="dark"] .sidebar-header {
+    padding: 16px;
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--sidebar-bg);
+}
+
+[data-theme="dark"] .app-name {
+    color: var(--text-title);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+[data-theme="dark"] .sidebar-logo {
+    width: 32px;
+    height: 32px;
+    filter: brightness(1.1);
+}
+
+/* Main Content Background - Enhanced for Dark Mode */
+[data-theme="dark"] .main-content {
+    background-color: var(--bg-primary);
+}
+
+[data-theme="dark"] .content-wrapper {
+    background-color: var(--bg-primary);
+    min-height: 100vh;
+}
+
+/* Card Styles - Enhanced for Dark Mode */
+[data-theme="dark"] .card {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--card-shadow);
+}
+
+[data-theme="dark"] .card-header {
+    background-color: var(--bg-tertiary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Theme Toggle Enhancement for Dark Mode */
+[data-theme="dark"] .theme-toggle {
+    background-color: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .theme-toggle:hover {
+    background-color: var(--bg-secondary);
+}
+
+[data-theme="dark"] .theme-toggle-label {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .theme-toggle-label i {
+    color: var(--accent-primary);
+}
+
+[data-theme="dark"] .theme-toggle-input {
+    background-color: var(--text-secondary);
+}
+
+[data-theme="dark"] .theme-toggle-input:checked {
+    background-color: var(--accent-primary);
+}
+
+/* Enhanced Card Styles for Dark Mode */
+[data-theme="dark"] .card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--card-shadow);
+}
+
+/* Quick Action Buttons */
+[data-theme="dark"] .action-button {
+    background-color: var(--button-bg);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    padding: 16px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+[data-theme="dark"] .action-button:hover {
+    background-color: var(--button-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+[data-theme="dark"] .action-button i {
+    color: var(--accent-primary);
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+/* Navigation Items */
+[data-theme="dark"] .nav-item {
+    color: var(--nav-text);
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin: 4px 8px;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+[data-theme="dark"] .nav-item:hover {
+    background-color: var(--sidebar-hover);
+    color: var(--accent-primary);
+}
+
+[data-theme="dark"] .nav-item.active {
+    background-color: var(--nav-active-bg);
+    color: var(--nav-active-text);
+}
+
+/* Notification Styles */
+[data-theme="dark"] .notification-item {
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .notification-warning {
+    background-color: var(--notification-warning-bg);
+}
+
+[data-theme="dark"] .notification-error {
+    background-color: var(--notification-error-bg);
+}
+
+[data-theme="dark"] .notification-success {
+    background-color: var(--notification-success-bg);
+}
+
+[data-theme="dark"] .notification-time {
+    color: var(--text-muted);
+    font-size: 0.9em;
+    margin-top: 4px;
+}
+
+/* Empty State Messages */
+[data-theme="dark"] .empty-state {
+    color: var(--text-secondary);
+    text-align: center;
+    padding: 24px;
+    font-style: italic;
+}
+
+/* Card Headers */
+[data-theme="dark"] .card-header {
+    padding: 16px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+[data-theme="dark"] .card-header i {
+    color: var(--accent-primary);
+}
+
+[data-theme="dark"] .card-header h3 {
+    color: var(--text-title);
+    margin: 0;
+    font-weight: 500;
+} 
