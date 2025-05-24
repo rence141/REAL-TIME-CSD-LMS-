@@ -1,0 +1,261 @@
+.notifications-container {
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.notification-card {
+    width: 100%;
+    max-width: 500px;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+}
+
+.card-header i {
+    margin-right: 12px;
+    color: #6200ee;
+}
+
+.card-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.badge {
+    background-color: #6200ee;
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    margin-left: 8px;
+}
+
+.activity-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.activity-item {
+    display: flex;
+    padding: 12px 16px;
+    border-bottom: 1px solid #f5f5f5;
+    align-items: flex-start;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.activity-item:hover {
+    background-color: #f5f5f5;
+}
+
+.activity-item.unread {
+    background-color: #f3e5f5;
+}
+
+.activity-icon {
+    color: #6200ee;
+    font-size: 16px;
+    margin-right: 12px;
+    margin-top: 2px;
+}
+
+.activity-message {
+    font-size: 0.875rem;
+    margin-bottom: 4px;
+}
+
+.appeal-reason {
+    font-size: 0.75rem;
+    color: #5f6368;
+    margin-top: 4px;
+    padding: 4px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.activity-time {
+    font-size: 0.75rem;
+    color: #5f6368;
+}
+
+.no-notifications {
+    padding: 16px;
+    text-align: center;
+    color: #5f6368;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.mdc-button {
+    min-width: auto;
+    padding: 0 8px;
+    height: 36px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.0892857143em;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mdc-button--raised {
+    background-color: #6200ee;
+    color: white;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.mdc-button--raised:hover {
+    background-color: #5000d1;
+}
+
+.mdc-button--outlined {
+    border: 1px solid #6200ee;
+    color: #6200ee;
+    background-color: transparent;
+}
+
+.mdc-button--outlined:hover {
+    background-color: rgba(98, 0, 238, 0.04);
+}
+
+.appeal-actions {
+    margin-left: auto;
+    display: flex;
+    gap: 8px;
+}
+
+/* Status badges */
+.status-badge {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.status-badge.new {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+.status-badge.absent {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+.status-badge.late {
+    background-color: #fff3e0;
+    color: #ef6c00;
+}
+
+.status-badge.excused {
+    background-color: #e3f2fd;
+    color: #1565c0;
+}
+
+/* Scrollbar styling */
+.notification-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.notification-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.notification-list::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+}
+
+.notification-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Empty state */
+#no-notifications {
+    text-align: center;
+    padding: 32px 16px;
+    color: #5f6368;
+}
+
+#no-notifications .material-icons {
+    font-size: 48px;
+    color: #dadce0;
+    margin-bottom: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .notifications-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .notifications-container {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    .notification-section {
+        padding: 16px;
+    }
+    
+    .notification-item {
+        padding: 12px;
+    }
+    
+    .notification-actions {
+        flex-direction: column;
+    }
+    
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .notification-card {
+        margin: 8px;
+        border-radius: 0;
+    }
+
+    .activity-item {
+        padding: 8px;
+    }
+
+    .appeal-actions {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .mdc-button {
+        width: 100%;
+    }
+} 

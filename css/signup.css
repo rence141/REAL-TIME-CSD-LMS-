@@ -1,0 +1,176 @@
+/* Sign Up bg color */
+body {
+    margin: 0;
+    padding: 3;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 24px;
+    position: relative;
+}
+
+/* Centered Blue Square (Back Box) */
+.box {
+    width: 1400px;
+    height: 900px;
+    background-color: rgb(62, 134, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.box2 {
+    width: 1350px;
+    height: 800px;
+    background-image: url('../IMAGES/bg-inner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    position: relative;
+    padding: 0 20px;
+}
+
+
+/* Left-aligned box inside .box2 */
+.box3_inner {
+    width: 650px; /* Fit inside .box2 */
+    height: 750px;
+    background-image: url('../IMAGES/Screenshot 2025-02-27 182517.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack elements */
+    padding: 20px; /* Less padding for compact design */
+    border-radius: 10px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+/* Right-aligned box inside .box2 */
+.box4_inner {
+    width: 650px; /* Same size as .box3_inner */
+    height: 750px; /* Adjusted for balance */
+    background-image: url('../IMAGES/Screenshot 2025-02-27 185952.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures full image display */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack elements properly */
+    color: black; /* Changed to black for visibility */
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    flex-shrink: 0;
+    position: relative;
+    padding: 20px; /* Ensure spacing inside */
+}
+
+/* Box4_inner Contents */
+.custom-input {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent */
+    border: 2px solid black; /* Strong black outline */
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    transition: 0.3s;
+    color: black;
+    width: 100%; /* Makes input full width */
+}
+
+.custom-input::placeholder {
+    color: rgba(0, 0, 0, 0.7); 
+}
+
+.custom-input:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Gradient Oblong Button */
+.btn-primary {
+    background: linear-gradient(90deg, #007bff, #f2b305fc); /* Smooth blue gradient */
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    transition: 0.3s;
+    color: rgb(248, 248, 248);
+    font-weight: bold;
+    width: 100%; 
+}
+
+.btn-outline {
+    background: transparent; /* Keeps it transparent */
+    border: 2px solid black; /* Black border for outline effect */
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 50px; /* Makes it oblong */
+    transition: 0.3s;
+    color: rgb(241, 150, 15); /* Text color stays black */
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer; /* Ensures clickable effect */
+    text-align: center;
+}
+
+.btn-outline:hover {
+    background: linear-gradient(90deg, #0574f2fc, #b36500); /* Darker gradient on hover */
+}
+
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #b36500, #0574f2fc); /* Darker gradient on hover */
+}
+
+
+/* Remember Me & Forgot Password */
+.remember-forgot {
+    display: flex;
+    justify-content: space-between; /* Keeps elements close but aligned */
+    align-items: center;
+    font-size: 14px;
+    width: 100%; /* Makes sure it aligns properly */
+    margin-top: 5px;
+}
+
+/* Remember Me checkbox */
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+/* Forgot Password Styling */
+.login {
+    text-decoration: none;
+    color: #d1860d;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.login:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

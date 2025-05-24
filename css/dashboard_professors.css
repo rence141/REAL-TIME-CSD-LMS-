@@ -1,0 +1,66 @@
+/* Dashboard CSS */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f2942;
+    color: white;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: white;
+    height: 100vh;
+    position: fixed;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+.sidebar a {
+    display: block;
+    color: #f28d35;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 15px 0;
+}
+.sidebar a:hover {
+    color: #ff4500;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #68a3db;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Announcement Box */
+.announcement {
+    background-color: #f28d35;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Schedule Box */
+.schedule {
+    background-color: #2a3b5d;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.schedule-item {
+    background-color: #5a9cf2;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
