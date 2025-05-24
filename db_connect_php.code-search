@@ -1,0 +1,253 @@
+# Query: db_connect.php
+# ContextLines: 1
+
+50 results - 50 files
+
+PHP\activity_view_student.php:
+  1  <?php
+  2: require 'db_connect.php'; 
+  3  session_start();
+
+PHP\activity_view.php:
+  1  <?php
+  2: require 'db_connect.php'; 
+  3  session_start();
+
+PHP\add_grades.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  
+
+PHP\add_schedule.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  
+
+PHP\admin_add_professor.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  
+
+PHP\admin_add_schedules.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  
+
+PHP\admin_delete_professor.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  
+
+PHP\admin_login.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  
+
+PHP\admin_logout.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  session_destroy();
+
+PHP\admin_manage_schedules.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  
+
+PHP\admin_signup.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  
+
+PHP\admin_view_schedules.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  
+
+PHP\attendance_process.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  
+
+PHP\attendance_prof_process.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  
+
+PHP\attendance_prof.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  
+
+PHP\attendance_records.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  
+
+PHP\course_details_student.php:
+  1  <?php
+  2: require 'db_connect.php';
+  3  session_start();
+
+PHP\course_details.php:
+  1  <?php
+  2: require 'db_connect.php';
+  3  session_start();
+
+PHP\course_ui.php:
+  1  <?php
+  2: include 'db_connect.php'; // connection to the DB
+  3  session_start();
+
+PHP\courses_students.php:
+  2      session_start();
+  3:     require 'db_connect.php'; // Professors DB
+  4  
+
+PHP\create_activity.php:
+  1  <?php
+  2: include 'db_connect.php';
+  3  session_start();
+
+PHP\create_course.php:
+  1  <?php
+  2: require 'db_connect.php';
+  3  session_start();
+
+PHP\dashboard_professor.php:
+  5  // Database connection
+  6: include 'db_connect.php';
+  7  
+
+PHP\delete_grade.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  
+
+PHP\edit_activity.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  
+
+PHP\edit_delete_grade.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  
+
+PHP\fetch_activities.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  
+
+PHP\fetch_grades.php:
+  1  <?php
+  2: include 'db_connect.php';
+  3  
+
+PHP\fetch_students.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  
+
+PHP\grade_activity.php:
+  1  <?php
+  2: require 'db_connect.php';
+  3  session_start();
+
+PHP\grade_process.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  
+
+PHP\log_activity.php:
+  2  session_start();
+  3: require_once 'db_connect.php';
+  4  
+
+PHP\login_process.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Ensure this path is correct
+  4  
+
+PHP\login_professors.php:
+  2  session_start();
+  3: include '../PHP/db_connect.php'; // Ensure the correct path to your database connection file
+  4  
+
+PHP\logout_student.php:
+  13  if (!empty($_SESSION['professor_id']) && !empty($_SESSION['session_token'])) {
+  14:     @include 'db_connect.php';
+  15      if (isset($conn)) {
+
+PHP\logout.php:
+  13  if (!empty($_SESSION['professor_id']) && !empty($_SESSION['session_token'])) {
+  14:     @include 'db_connect.php';
+  15      if (isset($conn)) {
+
+PHP\manage_courses.php:
+  1  <?php
+  2: require 'db_connect.php';
+  3  session_start();
+
+PHP\manage_professors.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  
+
+PHP\professor_delete_activity.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  
+
+PHP\profile.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  
+
+PHP\reports.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  
+
+PHP\signup_process.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Ensure this file exists in PHP folder
+  4  
+
+PHP\toggle_activity_status.php:
+  1  <?php
+  2: require 'db_connect.php';
+  3  session_start();
+
+PHP\upload_grades.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  require 'vendor/autoload.php'; // Ensure you have PhpSpreadsheet installed
+
+PHP\upload_profile.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  
+
+PHP\verify_email.php:
+  3  session_start();
+  4: include 'db_connect.php'; // Ensure the correct path to your database connection file
+  5  include 'utils/email_helper.php'; // Include email helper functions
+
+PHP\view_activity.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  
+
+PHP\view_attendance_prof.php:
+  2  session_start();
+  3: include 'db_connect.php';
+
+PHP\view_grades.php:
+  2  session_start();
+  3: include 'db_connect.php';
+  4  
+
+PHP\view_students.php:
+  2  session_start();
+  3: require 'db_connect.php'; // Professors' database connection
+  4  

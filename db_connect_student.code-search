@@ -1,0 +1,9 @@
+# Query: db_connect_student
+
+2 results - 2 files
+
+PHP\schedule_student.php:
+  3: require 'db_connect.php'; // Students' database connection
+
+PHP\signup_student_process.php:
+  3: include 'db_connect_student.php'; // Ensure this file exists

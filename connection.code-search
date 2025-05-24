@@ -1,0 +1,182 @@
+# Query: connection
+# ContextLines: 1
+
+44 results - 27 files
+
+PHP\admin_add_schedules.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  
+
+PHP\admin_logout.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  session_destroy();
+
+PHP\admin_manage_schedules.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  
+
+PHP\admin_signup.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  
+
+PHP\attendance_process.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  
+
+PHP\attendance_prof.php:
+  22  
+  23: // Check connection
+  24  if ($conn->connect_error) {
+  25:     die("Connection failed: " . $conn->connect_error);
+  26  }
+
+PHP\attendance_records.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  
+
+PHP\course_ui.php:
+  1  <?php
+  2: include 'db_connect.php'; // connection to the DB
+  3  session_start();
+
+PHP\dashboard_professor.php:
+  3  
+  4: // Database connection
+  5  include 'db_connect.php';
+
+PHP\dashboard_student.php:
+  17  
+  18: // Create connection to professors database
+  19  $conn_professors = new mysqli('localhost', 'root', '003421.!', 'lms_dashborad_professors');
+  20  
+  21: // Add connection error checking
+  22  if ($conn_professors->connect_error) {
+  23:     echo "<!-- Connection failed: " . $conn_professors->connect_error . " -->";
+  24  }
+
+PHP\db_connect_student.php:
+  13  
+  14: // Check connections
+  15  if ($conn_student->connect_error) {
+  16:     die("Student DB connection failed: " . $conn_student->connect_error);
+  17  }
+  18  if ($conn_professors->connect_error) {
+  19:     die("Professors DB connection failed: " . $conn_professors->connect_error);
+  20  }
+
+PHP\db_connect.php:
+   9  if ($conn->connect_error) {
+  10:     die("Connection failed: " . $conn->connect_error);
+  11  }
+
+  17  if ($conn_student->connect_error) {
+  18:     die("Connection to student database failed: " . $conn_student->connect_error);
+  19  }
+
+PHP\db_mysql_linking.php:
+   8  
+   9: // Check connection
+  10  if ($conn->connect_error) {
+  11:     die("Connection failed: " . $conn->connect_error);
+  12  }
+
+PHP\db.connect_professors.php:
+   9  if ($conn->connect_error) {
+  10:     die("Connection failed: " . $conn->connect_error);
+  11  }
+
+PHP\login_professors.php:
+  2  session_start();
+  3: include '/db_connect.php'; // Ensure the correct path to your database connection file
+  4  
+
+PHP\login_student_process.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Ensure you have a database connection
+  4  
+
+PHP\manage_professors.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  
+
+PHP\professor_delete_activity.php:
+  34  
+  35: $conn->close(); // Close the database connection
+  36  ?>
+
+PHP\reports.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  
+
+PHP\schedule_student.php:
+  16  
+  17: // Create connection to professors database
+  18  $conn_professors = new mysqli('localhost', 'root', '003421.!', 'lms_dashborad_professors');
+  19  if ($conn_professors->connect_error) {
+  20:     die("Connection to professors database failed: {$conn_professors->connect_error}");
+  21  }
+  22  
+  23: // Create connection to students database
+  24  $conn_students = new mysqli('localhost', 'root', '003421.!', 'lms_database_student');
+  25  if ($conn_students->connect_error) {
+  26:     die("Connection to students database failed: {$conn_students->connect_error}");
+  27  }
+
+PHP\signup_student_process.php:
+  62  
+  63:     // Close connections
+  64      $stmt->close();
+
+PHP\upload_profile.php:
+  2  session_start();
+  3: include 'db_connect.php'; // Database connection
+  4  
+
+PHP\verify_email.php:
+  3  session_start();
+  4: include 'db_connect.php'; // Ensure the correct path to your database connection file
+  5  include 'utils/email_helper.php'; // Include email helper functions
+
+PHP\view_attendance_student.php:
+  16  
+  17: // Create connection to professors database with error handling
+  18  $conn_professors = new mysqli('localhost', 'root', '003421.!', 'lms_dashborad_professors');
+  19  if ($conn_professors->connect_error) {
+  20:     die("Connection to professors database failed: {$conn_professors->connect_error}");
+  21  }
+  22  
+  23: // Check if student database connection exists
+  24  if (!isset($conn_student) || $conn_student->connect_error) {
+  25:     die("Connection to student database failed: " . ($conn_student->connect_error ?? "Connection not established"));
+  26  }
+
+PHP\view_couse.php:
+  1  <?php
+  2: // Assuming a database connection is already established
+  3  session_start();
+
+PHP\view_report_students.php:
+  12  
+  13: // Create connection to professors database
+  14  $conn_professors = new mysqli('localhost', 'root', '003421.!', 'lms_dashborad_professors');
+  15  if ($conn_professors->connect_error) {
+  16:     die("Connection to professors database failed: " . $conn_professors->connect_error);
+  17  }
+
+PHP\view_students.php:
+   2  session_start();
+   3: require 'db_connect.php'; // Include the connection
+   4  
+
+  83  
+  84: $conn->close(); // Close professor DB connection
+  85: $conn_student->close(); // Close student DB connection
+  86  ?>

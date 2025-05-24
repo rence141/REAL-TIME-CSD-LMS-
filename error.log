@@ -1,0 +1,1136 @@
+[17-May-2025 16:31:37 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-742a97395adsm2689783b3a.75 - gsmtp
+
+[17-May-2025 16:31:37 Asia/Manila] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[17-May-2025 16:31:37 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [180.191.187.27]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[17-May-2025 16:31:37 Asia/Manila] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[17-May-2025 16:31:37 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[17-May-2025 16:31:38 Asia/Manila] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[17-May-2025 16:31:38 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [180.191.187.27]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[17-May-2025 16:31:38 Asia/Manila] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[17-May-2025 16:31:38 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[17-May-2025 16:31:38 Asia/Manila] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[17-May-2025 16:31:38 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[17-May-2025 16:31:38 Asia/Manila] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<lorenzezz0987@gmail.com>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-742a97395adsm2689783b3a.75 - gsmtp
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: RCPT TO:<lorenzezz0987@gmail.com>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-742a97395adsm2689783b3a.75 - gsmtp
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: DATA
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-742a97395adsm2689783b3a.75 - gsmtp
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Date: Sat, 17 May 2025 16:31:36 +0800
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: To: Rence Prepotente <lorenzezz0987@gmail.com>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: From: BUPC Computer Science Department <lorenzezz0987@gmail.com>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Subject: Password Reset Verification Code
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Message-ID: <aHS9m60i620QPINNoabMPCUOq7u5PjGwFYpumkvc@localhost>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER:  boundary="b1=_aHS9m60i620QPINNoabMPCUOq7u5PjGwFYpumkvc"
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_aHS9m60i620QPINNoabMPCUOq7u5PjGwFYpumkvc
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Your verification code is: 365478
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: This code will expire in 15 minutes.
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_aHS9m60i620QPINNoabMPCUOq7u5PjGwFYpumkvc
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <h2 style='color: #1a73e8;'>Password Reset Request</h2>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>Dear Rence Prepotente,</p>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>We received a request to reset your password. Your verification code is:</p>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <div style='background-color: #f5f5f5; padding: 15px; text-align: center; margin: 20px 0;'>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     <h1 style='color: #1a73e8; margin: 0;'>365478</h1>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 </div>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>This code will expire in 15 minutes.</p>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>If you didn't request this password reset, please ignore this email.</p>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p style='color: #666; font-size: 14px; margin-top: 30px;'>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     Best regards,<br>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     BUPC Computer Science Department
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 </p>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                             </div>
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                         
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_aHS9m60i620QPINNoabMPCUOq7u5PjGwFYpumkvc--
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[17-May-2025 16:31:39 Asia/Manila] SMTP Debug: CLIENT -> SERVER: .
+
+[17-May-2025 16:31:40 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 OK  1747470701 d2e1a72fcca58-742a97395adsm2689783b3a.75 - gsmtp
+
+[17-May-2025 16:31:40 Asia/Manila] SMTP Debug: CLIENT -> SERVER: RSET
+
+[17-May-2025 16:31:40 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Flushed d2e1a72fcca58-742a97395adsm2689783b3a.75 - gsmtp
+
+[17-May-2025 16:31:40 Asia/Manila] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[17-May-2025 16:31:40 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-742a97395adsm2689783b3a.75 - gsmtp
+
+[17-May-2025 16:33:15 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-742a98a32edsm2728493b3a.162 - gsmtp
+
+[17-May-2025 16:33:15 Asia/Manila] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[17-May-2025 16:33:15 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [180.191.187.27]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[17-May-2025 16:33:15 Asia/Manila] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[17-May-2025 16:33:15 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[17-May-2025 16:33:15 Asia/Manila] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[17-May-2025 16:33:15 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [180.191.187.27]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[17-May-2025 16:33:15 Asia/Manila] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[17-May-2025 16:33:15 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[17-May-2025 16:33:15 Asia/Manila] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[17-May-2025 16:33:16 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[17-May-2025 16:33:16 Asia/Manila] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[17-May-2025 16:33:16 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[17-May-2025 16:33:16 Asia/Manila] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<lorenzezz0987@gmail.com>
+
+[17-May-2025 16:33:16 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-742a98a32edsm2728493b3a.162 - gsmtp
+
+[17-May-2025 16:33:16 Asia/Manila] SMTP Debug: CLIENT -> SERVER: RCPT TO:<lorenzezz0987@gmail.com>
+
+[17-May-2025 16:33:16 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-742a98a32edsm2728493b3a.162 - gsmtp
+
+[17-May-2025 16:33:16 Asia/Manila] SMTP Debug: CLIENT -> SERVER: DATA
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-742a98a32edsm2728493b3a.162 - gsmtp
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Date: Sat, 17 May 2025 16:33:14 +0800
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: To: Rence Prepotente <lorenzezz0987@gmail.com>
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: From: BUPC Computer Science Department <lorenzezz0987@gmail.com>
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Subject: Password Reset Verification Code
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Message-ID: <HXkhkBaVNSzzTTpwpBveGoToUvYwwxK8x06IwsuEgI@localhost>
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER:  boundary="b1=_HXkhkBaVNSzzTTpwpBveGoToUvYwwxK8x06IwsuEgI"
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_HXkhkBaVNSzzTTpwpBveGoToUvYwwxK8x06IwsuEgI
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Your verification code is: 961337
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: This code will expire in 15 minutes.
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_HXkhkBaVNSzzTTpwpBveGoToUvYwwxK8x06IwsuEgI
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <h2 style='color: #1a73e8;'>Password Reset Request</h2>
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>Dear Rence Prepotente,</p>
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>We received a request to reset your password. Your verification code is:</p>
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <div style='background-color: #f5f5f5; padding: 15px; text-align: center; margin: 20px 0;'>
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     <h1 style='color: #1a73e8; margin: 0;'>961337</h1>
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 </div>
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>This code will expire in 15 minutes.</p>
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>If you didn't request this password reset, please ignore this email.</p>
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p style='color: #666; font-size: 14px; margin-top: 30px;'>
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     Best regards,<br>
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     BUPC Computer Science Department
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 </p>
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                             </div>
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                         
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_HXkhkBaVNSzzTTpwpBveGoToUvYwwxK8x06IwsuEgI--
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: .
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 OK  1747470798 d2e1a72fcca58-742a98a32edsm2728493b3a.162 - gsmtp
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: RSET
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Flushed d2e1a72fcca58-742a98a32edsm2728493b3a.162 - gsmtp
+
+[17-May-2025 16:33:17 Asia/Manila] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[17-May-2025 16:33:18 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-742a98a32edsm2728493b3a.162 - gsmtp
+
+[18-May-2025 11:39:03 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-742a982a08esm3863516b3a.112 - gsmtp
+
+[18-May-2025 11:39:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[18-May-2025 11:39:03 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [180.191.187.198]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[18-May-2025 11:39:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[18-May-2025 11:39:03 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[18-May-2025 11:39:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[18-May-2025 11:39:03 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [180.191.187.198]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[18-May-2025 11:39:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[18-May-2025 11:39:04 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[18-May-2025 11:39:04 Asia/Manila] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[18-May-2025 11:39:04 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[18-May-2025 11:39:04 Asia/Manila] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[18-May-2025 11:39:04 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[18-May-2025 11:39:04 Asia/Manila] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<lorenzezz0987@gmail.com>
+
+[18-May-2025 11:39:04 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-742a982a08esm3863516b3a.112 - gsmtp
+
+[18-May-2025 11:39:04 Asia/Manila] SMTP Debug: CLIENT -> SERVER: RCPT TO:<lorenzezz0987@gmail.com>
+
+[18-May-2025 11:39:04 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-742a982a08esm3863516b3a.112 - gsmtp
+
+[18-May-2025 11:39:04 Asia/Manila] SMTP Debug: CLIENT -> SERVER: DATA
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-742a982a08esm3863516b3a.112 - gsmtp
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Date: Sun, 18 May 2025 11:39:01 +0800
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: To: Rence Prepotente <lorenzezz0987@gmail.com>
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: From: BUPC Computer Science Department <lorenzezz0987@gmail.com>
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Subject: Password Reset Verification Code
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Message-ID: <88CjkVf0p14xcyU6h35tVTRGxnjhmzFflAwLcKB8@localhost>
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER:  boundary="b1=_88CjkVf0p14xcyU6h35tVTRGxnjhmzFflAwLcKB8"
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_88CjkVf0p14xcyU6h35tVTRGxnjhmzFflAwLcKB8
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Your verification code is: 386115
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: This code will expire in 15 minutes.
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_88CjkVf0p14xcyU6h35tVTRGxnjhmzFflAwLcKB8
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <h2 style='color: #1a73e8;'>Password Reset Request</h2>
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>Dear Rence Prepotente,</p>
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>We received a request to reset your password. Your verification code is:</p>
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <div style='background-color: #f5f5f5; padding: 15px; text-align: center; margin: 20px 0;'>
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     <h1 style='color: #1a73e8; margin: 0;'>386115</h1>
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 </div>
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>This code will expire in 15 minutes.</p>
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>If you didn't request this password reset, please ignore this email.</p>
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p style='color: #666; font-size: 14px; margin-top: 30px;'>
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     Best regards,<br>
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     BUPC Computer Science Department
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 </p>
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                             </div>
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                         
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_88CjkVf0p14xcyU6h35tVTRGxnjhmzFflAwLcKB8--
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[18-May-2025 11:39:05 Asia/Manila] SMTP Debug: CLIENT -> SERVER: .
+
+[18-May-2025 11:39:06 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 OK  1747539549 d2e1a72fcca58-742a982a08esm3863516b3a.112 - gsmtp
+
+[18-May-2025 11:39:06 Asia/Manila] SMTP Debug: CLIENT -> SERVER: RSET
+
+[18-May-2025 11:39:06 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Flushed d2e1a72fcca58-742a982a08esm3863516b3a.112 - gsmtp
+
+[18-May-2025 11:39:06 Asia/Manila] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[18-May-2025 11:39:06 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-742a982a08esm3863516b3a.112 - gsmtp
+
+[18-May-2025 19:46:56 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-30e3340184dsm8372378a91.8 - gsmtp
+
+[18-May-2025 19:46:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[18-May-2025 19:46:56 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [180.191.187.55]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[18-May-2025 19:46:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[18-May-2025 19:46:56 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[18-May-2025 19:46:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[18-May-2025 19:46:57 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [180.191.187.55]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[18-May-2025 19:46:57 Asia/Manila] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[18-May-2025 19:46:57 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[18-May-2025 19:46:57 Asia/Manila] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[18-May-2025 19:46:57 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[18-May-2025 19:46:57 Asia/Manila] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[18-May-2025 19:46:57 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[18-May-2025 19:46:57 Asia/Manila] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<lorenzezz0987@gmail.com>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-30e3340184dsm8372378a91.8 - gsmtp
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: RCPT TO:<lorenzeZZ0987@GMAIL.COM>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-30e3340184dsm8372378a91.8 - gsmtp
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: DATA
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-30e3340184dsm8372378a91.8 - gsmtp
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Date: Sun, 18 May 2025 19:46:56 +0800
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: To: Rence Prepotente <lorenzeZZ0987@GMAIL.COM>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: From: BUPC Computer Science Department <lorenzezz0987@gmail.com>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Subject: Password Reset Verification Code
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Message-ID: <yiGzDV6itFJwjV5QfvjE3po0MlHHjJEPfGsDpjHv2Ds@localhost>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER:  boundary="b1=_yiGzDV6itFJwjV5QfvjE3po0MlHHjJEPfGsDpjHv2Ds"
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_yiGzDV6itFJwjV5QfvjE3po0MlHHjJEPfGsDpjHv2Ds
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Your verification code is: 416360
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: This code will expire in 15 minutes.
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_yiGzDV6itFJwjV5QfvjE3po0MlHHjJEPfGsDpjHv2Ds
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <h2 style='color: #1a73e8;'>Password Reset Request</h2>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>Dear Rence Prepotente,</p>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>We received a request to reset your password. Your verification code is:</p>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <div style='background-color: #f5f5f5; padding: 15px; text-align: center; margin: 20px 0;'>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     <h1 style='color: #1a73e8; margin: 0;'>416360</h1>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 </div>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>This code will expire in 15 minutes.</p>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>If you didn't request this password reset, please ignore this email.</p>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p style='color: #666; font-size: 14px; margin-top: 30px;'>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     Best regards,<br>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     BUPC Computer Science Department
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 </p>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                             </div>
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                         
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_yiGzDV6itFJwjV5QfvjE3po0MlHHjJEPfGsDpjHv2Ds--
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[18-May-2025 19:46:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: .
+
+[18-May-2025 19:46:59 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 OK  1747568823 98e67ed59e1d1-30e3340184dsm8372378a91.8 - gsmtp
+
+[18-May-2025 19:46:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: RSET
+
+[18-May-2025 19:46:59 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Flushed 98e67ed59e1d1-30e3340184dsm8372378a91.8 - gsmtp
+
+[18-May-2025 19:46:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[18-May-2025 19:46:59 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-30e3340184dsm8372378a91.8 - gsmtp
+
+[19-May-2025 20:37:49 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-231e76b4d73sm53266555ad.130 - gsmtp
+
+[19-May-2025 20:37:49 Asia/Manila] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[19-May-2025 20:37:50 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [180.191.187.100]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[19-May-2025 20:37:50 Asia/Manila] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[19-May-2025 20:37:50 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[19-May-2025 20:37:50 Asia/Manila] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[19-May-2025 20:37:50 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [180.191.187.100]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[19-May-2025 20:37:50 Asia/Manila] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[19-May-2025 20:37:50 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[19-May-2025 20:37:50 Asia/Manila] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[19-May-2025 20:37:51 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[19-May-2025 20:37:51 Asia/Manila] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[19-May-2025 20:37:51 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[19-May-2025 20:37:51 Asia/Manila] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<lorenzezz0987@gmail.com>
+
+[19-May-2025 20:37:51 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-231e76b4d73sm53266555ad.130 - gsmtp
+
+[19-May-2025 20:37:51 Asia/Manila] SMTP Debug: CLIENT -> SERVER: RCPT TO:<Lorenzezz0987@gmail.com>
+
+[19-May-2025 20:37:51 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-231e76b4d73sm53266555ad.130 - gsmtp
+
+[19-May-2025 20:37:51 Asia/Manila] SMTP Debug: CLIENT -> SERVER: DATA
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-231e76b4d73sm53266555ad.130 - gsmtp
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Date: Mon, 19 May 2025 20:37:49 +0800
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: To: Rence Prepotente <Lorenzezz0987@gmail.com>
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: From: BUPC Computer Science Department <lorenzezz0987@gmail.com>
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Subject: Password Reset Verification Code
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Message-ID: <W9t2iviBYqF4dWHfYRj75iHZXXwetMezXMieYk02WCM@localhost>
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER:  boundary="b1=_W9t2iviBYqF4dWHfYRj75iHZXXwetMezXMieYk02WCM"
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_W9t2iviBYqF4dWHfYRj75iHZXXwetMezXMieYk02WCM
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Your verification code is: 847681
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: This code will expire in 15 minutes.
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_W9t2iviBYqF4dWHfYRj75iHZXXwetMezXMieYk02WCM
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <h2 style='color: #1a73e8;'>Password Reset Request</h2>
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>Dear Rence Prepotente,</p>
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>We received a request to reset your password. Your verification code is:</p>
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <div style='background-color: #f5f5f5; padding: 15px; text-align: center; margin: 20px 0;'>
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     <h1 style='color: #1a73e8; margin: 0;'>847681</h1>
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 </div>
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>This code will expire in 15 minutes.</p>
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>If you didn't request this password reset, please ignore this email.</p>
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p style='color: #666; font-size: 14px; margin-top: 30px;'>
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     Best regards,<br>
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     BUPC Computer Science Department
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 </p>
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                             </div>
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                         
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_W9t2iviBYqF4dWHfYRj75iHZXXwetMezXMieYk02WCM--
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:52 Asia/Manila] SMTP Debug: CLIENT -> SERVER: .
+
+[19-May-2025 20:37:53 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 OK  1747658273 d9443c01a7336-231e76b4d73sm53266555ad.130 - gsmtp
+
+[19-May-2025 20:37:53 Asia/Manila] SMTP Debug: CLIENT -> SERVER: RSET
+
+[19-May-2025 20:37:53 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Flushed d9443c01a7336-231e76b4d73sm53266555ad.130 - gsmtp
+
+[19-May-2025 20:37:53 Asia/Manila] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[19-May-2025 20:37:53 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-231e76b4d73sm53266555ad.130 - gsmtp
+
+[19-May-2025 20:37:53 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-231d4ade028sm58991925ad.82 - gsmtp
+
+[19-May-2025 20:37:53 Asia/Manila] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[19-May-2025 20:37:54 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [180.191.187.100]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[19-May-2025 20:37:54 Asia/Manila] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[19-May-2025 20:37:54 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[19-May-2025 20:37:54 Asia/Manila] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[19-May-2025 20:37:54 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [180.191.187.100]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[19-May-2025 20:37:54 Asia/Manila] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[19-May-2025 20:37:54 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[19-May-2025 20:37:54 Asia/Manila] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<lorenzezz0987@gmail.com>
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-231d4ade028sm58991925ad.82 - gsmtp
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: RCPT TO:<Lorenzezz0987@gmail.com>
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-231d4ade028sm58991925ad.82 - gsmtp
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: DATA
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-231d4ade028sm58991925ad.82 - gsmtp
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Date: Mon, 19 May 2025 20:37:53 +0800
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: To: Rence Prepotente <Lorenzezz0987@gmail.com>
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: From: BUPC Computer Science Department <lorenzezz0987@gmail.com>
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Subject: Password Reset Verification Code
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Message-ID: <kE6K5X4qqAyxd6cyDuzpQOq5UTAvkvmLChJp2upDSrk@localhost>
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER:  boundary="b1=_kE6K5X4qqAyxd6cyDuzpQOq5UTAvkvmLChJp2upDSrk"
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_kE6K5X4qqAyxd6cyDuzpQOq5UTAvkvmLChJp2upDSrk
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Your verification code is: 687870
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: This code will expire in 15 minutes.
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:55 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_kE6K5X4qqAyxd6cyDuzpQOq5UTAvkvmLChJp2upDSrk
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <h2 style='color: #1a73e8;'>Password Reset Request</h2>
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>Dear Rence Prepotente,</p>
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>We received a request to reset your password. Your verification code is:</p>
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <div style='background-color: #f5f5f5; padding: 15px; text-align: center; margin: 20px 0;'>
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     <h1 style='color: #1a73e8; margin: 0;'>687870</h1>
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 </div>
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>This code will expire in 15 minutes.</p>
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>If you didn't request this password reset, please ignore this email.</p>
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p style='color: #666; font-size: 14px; margin-top: 30px;'>
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     Best regards,<br>
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     BUPC Computer Science Department
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 </p>
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                             </div>
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                         
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_kE6K5X4qqAyxd6cyDuzpQOq5UTAvkvmLChJp2upDSrk--
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER: .
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 OK  1747658276 d9443c01a7336-231d4ade028sm58991925ad.82 - gsmtp
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER: RSET
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Flushed d9443c01a7336-231d4ade028sm58991925ad.82 - gsmtp
+
+[19-May-2025 20:37:56 Asia/Manila] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[19-May-2025 20:37:57 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-231d4ade028sm58991925ad.82 - gsmtp
+
+[19-May-2025 20:37:57 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-231d4e97dcesm58718825ad.121 - gsmtp
+
+[19-May-2025 20:37:57 Asia/Manila] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[19-May-2025 20:37:57 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [180.191.187.100]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[19-May-2025 20:37:57 Asia/Manila] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[19-May-2025 20:37:57 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[19-May-2025 20:37:57 Asia/Manila] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[19-May-2025 20:37:58 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [180.191.187.100]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[19-May-2025 20:37:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[19-May-2025 20:37:58 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[19-May-2025 20:37:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[19-May-2025 20:37:58 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[19-May-2025 20:37:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[19-May-2025 20:37:58 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[19-May-2025 20:37:58 Asia/Manila] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<lorenzezz0987@gmail.com>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-231d4e97dcesm58718825ad.121 - gsmtp
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: RCPT TO:<Lorenzezz0987@gmail.com>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-231d4e97dcesm58718825ad.121 - gsmtp
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: DATA
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-231d4e97dcesm58718825ad.121 - gsmtp
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Date: Mon, 19 May 2025 20:37:57 +0800
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: To: Rence Prepotente <Lorenzezz0987@gmail.com>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: From: BUPC Computer Science Department <lorenzezz0987@gmail.com>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Subject: Password Reset Verification Code
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Message-ID: <YhZnwtEu6lIXiVXvFkkuAv0XXzF3ibxUfatpno0cu8@localhost>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER:  boundary="b1=_YhZnwtEu6lIXiVXvFkkuAv0XXzF3ibxUfatpno0cu8"
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_YhZnwtEu6lIXiVXvFkkuAv0XXzF3ibxUfatpno0cu8
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Your verification code is: 665541
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: This code will expire in 15 minutes.
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_YhZnwtEu6lIXiVXvFkkuAv0XXzF3ibxUfatpno0cu8
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <h2 style='color: #1a73e8;'>Password Reset Request</h2>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>Dear Rence Prepotente,</p>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>We received a request to reset your password. Your verification code is:</p>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <div style='background-color: #f5f5f5; padding: 15px; text-align: center; margin: 20px 0;'>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     <h1 style='color: #1a73e8; margin: 0;'>665541</h1>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 </div>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>This code will expire in 15 minutes.</p>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>If you didn't request this password reset, please ignore this email.</p>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p style='color: #666; font-size: 14px; margin-top: 30px;'>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     Best regards,<br>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     BUPC Computer Science Department
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 </p>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                             </div>
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                         
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_YhZnwtEu6lIXiVXvFkkuAv0XXzF3ibxUfatpno0cu8--
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:37:59 Asia/Manila] SMTP Debug: CLIENT -> SERVER: .
+
+[19-May-2025 20:38:00 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 OK  1747658280 d9443c01a7336-231d4e97dcesm58718825ad.121 - gsmtp
+
+[19-May-2025 20:38:00 Asia/Manila] SMTP Debug: CLIENT -> SERVER: RSET
+
+[19-May-2025 20:38:00 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Flushed d9443c01a7336-231d4e97dcesm58718825ad.121 - gsmtp
+
+[19-May-2025 20:38:00 Asia/Manila] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[19-May-2025 20:38:00 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-231d4e97dcesm58718825ad.121 - gsmtp
+
+[19-May-2025 20:38:01 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-742a96def96sm6299043b3a.14 - gsmtp
+
+[19-May-2025 20:38:01 Asia/Manila] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[19-May-2025 20:38:01 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [180.191.187.100]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[19-May-2025 20:38:01 Asia/Manila] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[19-May-2025 20:38:01 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[19-May-2025 20:38:01 Asia/Manila] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[19-May-2025 20:38:02 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [180.191.187.100]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[19-May-2025 20:38:02 Asia/Manila] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[19-May-2025 20:38:02 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[19-May-2025 20:38:02 Asia/Manila] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[19-May-2025 20:38:02 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[19-May-2025 20:38:02 Asia/Manila] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[19-May-2025 20:38:02 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[19-May-2025 20:38:02 Asia/Manila] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<lorenzezz0987@gmail.com>
+
+[19-May-2025 20:38:02 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-742a96def96sm6299043b3a.14 - gsmtp
+
+[19-May-2025 20:38:02 Asia/Manila] SMTP Debug: CLIENT -> SERVER: RCPT TO:<Lorenzezz0987@gmail.com>
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-742a96def96sm6299043b3a.14 - gsmtp
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: DATA
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-742a96def96sm6299043b3a.14 - gsmtp
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Date: Mon, 19 May 2025 20:38:00 +0800
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: To: Rence Prepotente <Lorenzezz0987@gmail.com>
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: From: BUPC Computer Science Department <lorenzezz0987@gmail.com>
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Subject: Password Reset Verification Code
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Message-ID: <fJ3i6nNsviLLDb5M83aKj5yBL6KeDdIpNUC0GoyJu4@localhost>
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER:  boundary="b1=_fJ3i6nNsviLLDb5M83aKj5yBL6KeDdIpNUC0GoyJu4"
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_fJ3i6nNsviLLDb5M83aKj5yBL6KeDdIpNUC0GoyJu4
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Your verification code is: 469235
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: This code will expire in 15 minutes.
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_fJ3i6nNsviLLDb5M83aKj5yBL6KeDdIpNUC0GoyJu4
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                             <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;'>
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <h2 style='color: #1a73e8;'>Password Reset Request</h2>
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>Dear Rence Prepotente,</p>
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>We received a request to reset your password. Your verification code is:</p>
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <div style='background-color: #f5f5f5; padding: 15px; text-align: center; margin: 20px 0;'>
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     <h1 style='color: #1a73e8; margin: 0;'>469235</h1>
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 </div>
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>This code will expire in 15 minutes.</p>
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p>If you didn't request this password reset, please ignore this email.</p>
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 <p style='color: #666; font-size: 14px; margin-top: 30px;'>
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     Best regards,<br>
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                     BUPC Computer Science Department
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                                 </p>
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                             </div>
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER:                         
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: --b1=_fJ3i6nNsviLLDb5M83aKj5yBL6KeDdIpNUC0GoyJu4--
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: 
+
+[19-May-2025 20:38:03 Asia/Manila] SMTP Debug: CLIENT -> SERVER: .
+
+[19-May-2025 20:38:04 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 OK  1747658284 d2e1a72fcca58-742a96def96sm6299043b3a.14 - gsmtp
+
+[19-May-2025 20:38:04 Asia/Manila] SMTP Debug: CLIENT -> SERVER: RSET
+
+[19-May-2025 20:38:04 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Flushed d2e1a72fcca58-742a96def96sm6299043b3a.14 - gsmtp
+
+[19-May-2025 20:38:04 Asia/Manila] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[19-May-2025 20:38:04 Asia/Manila] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-742a96def96sm6299043b3a.14 - gsmtp
+
